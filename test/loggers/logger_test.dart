@@ -97,4 +97,8 @@ void main() {
       )).called(1);
     },
   );
+
+  test('Failing test', () {
+    expect(0, 1);
+  });
 }
